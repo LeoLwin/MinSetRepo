@@ -3,6 +3,6 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/MinsetRepo-github/', // Base path for GitHub Pages deployment
+  base: '/MinSetRepo/', // Correct base path matching the repository name
   plugins: [react()]
 });
